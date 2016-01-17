@@ -1,0 +1,23 @@
+ 
+ 
+ <h1> servies</h1>
+ 
+ 
+<div class="row">
+{{#each model   as |itemon|}}
+ 
+        {{#item-order 
+          name=itemon.info
+         details=itemon.details 
+         logoUrl= itemon.urlimg
+          }}
+        {{/item-order}}
+{{/each}}
+  </div>
+
+  
+
+
+ 
+ 
+

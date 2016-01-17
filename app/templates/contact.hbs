@@ -1,0 +1,28 @@
+
+<p>We are very happy to privide services for you 
+ Our phone number is<mark> 734-67-463</mark>
+  you could reach us in any time
+</p>
+ 
+ <h3>list of our branches</h3>
+ <ul>
+ {{#each model.br   as |branch|}}
+<li>name:{{branch.name}}
+address:{{branch.Address}}
+</li>
+{{/each}}
+
+ </ul>
+
+ <h3>list of our clients</h3>
+  <ul>
+ {{#each model.cl   as |client|}}
+<li>name:{{client.name}}
+address:{{client.Address}}
+</li>
+{{/each}}
+
+ </ul>
+
+ 
+ 

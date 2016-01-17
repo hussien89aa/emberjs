@@ -1,3 +1,37 @@
-<h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+ <div class="container-fluid ">
+
+  <header class="imgb img-rounded">
+	<div class="container">
+	<font color="white" size="6">The New Baghdad Restaurant</font>
+	 
+</div>
+</header>
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Restaurant</a>
+    </div>
+    <ul class="nav navbar-nav">
+  <li><a href="/home" >Home</a></li>
+         <li><a href="/manage/19/hussein">Manage</a></li>
+            <li><a href="/order">Order</a></li>
+               <li><a href="/contact">Contact</a></li>
+               <!--
+                {{#link-to "home" class="btn btn-primary" }}Home {{/link-to}}
+     {{#link-to "manage" '19' 'husein' class="btn btn-primary" }}Manage {{/link-to}}
+   {{#link-to "contact" class="btn btn-primary" }}contact {{/link-to}}
+   -->
+    </ul>
+  </div>
+</nav>
+ 
+
+  
+  {{outlet}}
+
+<div class="Footer">
+ 
+  <strong>Copy Right@2016 Hussein AL Rubaye</strong>  
+</div>
+</div>

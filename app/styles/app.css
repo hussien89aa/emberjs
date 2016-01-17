@@ -1,0 +1,29 @@
+
+.imgb{
+
+	background-image: url('../images/cover.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 150px;
+	 
+
+}
+.Footer{
+	text-align: center;
+ 
+}
+
+.myimg{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+	padding-bottom:10px; 
+}
+ 
+ .main {
+
+ 	text-align: center;
+ }
+ 
+ 
