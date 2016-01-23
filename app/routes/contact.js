@@ -1,4 +1,5 @@
 import Ember from 'ember';
+ 
  var  branch=[{ name:'west avn', Address:'west baghdad'}
 ,
 { name:'east avn', Address:'east baghdad'}
@@ -14,7 +15,7 @@ import Ember from 'ember';
 { name:'jasim', Address:' baghdad'}
 ,
 { name:'mohammed', Address:' baghdad'}
- ];
+ ]; 
 export default Ember.Route.extend({
   //beforeModel() {
  //this.transitionTo('home');},

@@ -1,6 +1,15 @@
 
 <h1> manage </h1>
  
-{{model.id}}
-
-{{model.name}}
+<div class="row">
+<ul>
+{{#each model   as |itemon|}}
+  <li>
+  {{itemon.first_name}}  
+        {{itemon.last_name }}
+            {{itemon.date_request }}
+  </li>
+  
+{{/each}}
+</ul>
+  </div>

@@ -2,6 +2,17 @@
 
 module.exports = function(environment) {
   var ENV = {
+    // allow access
+      contentSecurityPolicy: {
+    'default-src': "'none'",
+    'script-src': "'self'",
+    'font-src': "'self'",
+    'connect-src': "'self' *",
+    'img-src': "'self'",
+    'style-src': "'self' *",
+    'media-src': "'self'"
+  }
+    ,
     modulePrefix: 'app-libary',
     environment: environment,
     baseURL: '/',
@@ -42,6 +53,6 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
-
+  
   return ENV;
 };

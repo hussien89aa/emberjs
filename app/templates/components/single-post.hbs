@@ -1,0 +1,16 @@
+{{input value=firstName    }}
+
+<p>{{firstName}}</p>
+
+ 
+
+{{#if isExpanded}}
+  
+  <button {{action 'contract' }}>Contract</button>
+{{else}}
+  <button {{action 'expand'}}>Show More...</button>
+{{/if}}
+
+<h1>{{msg}}</h1>
+
+hisid:{{datae}}
